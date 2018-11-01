@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel = "stylesheet"  href = "project.css">
+
+      <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>        
+      <script src="project.js"></script>
+  </head>
+
+  <body>
+
+    <div ng-app = "app1" ng-controller = "controller1">
+
+      <div id="hamburgerHolder">
+      </div>
+
+      <div id="nav-icon" ng-click="openNav()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+
+      <div id="overlay">
+
+          <div id="piece1">
+            <div id="piece1_1"></div> 
+            <div id="piece1_2"></div>         
+          </div>
+
+          <div id="piece2">
+            <div id="piece2_1"></div> 
+            <div id="piece2_2"></div>         
+          </div> 
+
+          <div id="linkType1Header1">Header</div>
+          <div class="linkType1" id="linkType1Elem1">Hello</div>
+          <div class="linkType1" id="linkType1Elem2">Hello</div>
+          <div class="linkType1" id="linkType1Elem3">Hello</div>
+          <div class="linkType1" id="linkType1Elem4">Hello</div>
+
+          <div id="linkType2Header1">Header</div>
+          <div class="linkType2" id="linkType2Elem1">Hello</div>
+          <div class="linkType2" id="linkType2Elem2">Hello</div>
+          <div class="linkType2" id="linkType2Elem3">Hello</div>
+          <div class="linkType2" id="linkType2Elem4">Hello</div>                              
+
+      </div>
+
+    </div>
+  </body>
+</html>
